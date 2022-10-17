@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="cabecalho">
+        <div class="cabecalho__container-textos">
+            <h1 class="cabecalho__titulo">Registration Form</h1>
+            <p class="cabecalho__paragrafo">Please fill out this form with the required information</p>
+        </div>
+        <form>
+            <fieldset class="cabecalho__form-person">
+                <div class="cabecalho__label-conteudo">
+                    <div class="cabecalho__label-form">
+                        <label for="fname" class="cabecalho__label-form cabecalho__name">Enter Your First Name:</label><br/>
+                    </div>
+                    <div class="cabecalho__input-caixa">
+                        <input type="text" id="fname" class="cabecalho__input"><br/>
+                    </div>
+                </div>
+                <div class="cabecalho__label-conteudo">
+                    <div class="cabecalho__label-form">
+                       <label for="lname" class="cabecalho__label-form cabecalho__name">Enter Your Last Name:</label><br/>
+                    </div>
+                    <div class="cabecalho__input-caixa">
+                    <input type="text" id="lname" class="cabecalho__input"><br/>
+                    </div>
+                </div>
+                <div class="cabecalho__label-conteudo">
+                    <div class="cabecalho__label-form">
+                        <label for="email" class="cabecalho__label-form cabecalho__email">Enter Your Email:</label><br/>
+                    </div>
+                    <div class="cabecalho__input-caixa">
+                        <input type="email" id="email" class="cabecalho__input"><br/>
+                    </div>
+                </div class="cabecalho__label-form">
+                <div class="cabecalho__label-conteudo">
+                    <div class="cabecalho__label-form">
+                        <label for="npass" class="cabecalho__label-form cabecalho__password">Create A New Password:</label><br/>
+                    </div>
+                    <div class="cabecalho__input-caixa">
+                        <input type="password" id="npass" class="cabecalho__input"><br/>
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+
+    <hr>
+
+    <div class="container__form">
+        <form>
+            <fieldset>
+                <div class="container__personal">
+                    <input type="radio" name="personalaccount" id="pacc">
+                    <label for="pacc">Personal Account</label><br/>
+                </div>
+                <div class="container__personal">
+                    <input type="radio" name="businessaccount" id="bacc">
+                    <label for="bacc">Business Account</label><br/>
+                </div>
+                <div class="container__personal">
+                    <input type="checkbox" name="terms" id="term">
+                    <label for="term">I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a></label><br/>
+                </div>    
+            </fieldset>
+        </form>
+    </div>
+
+    <hr>
+
+    <div class="container__form-about">
+        <form>
+            <fieldset>
+                <div class="container__form-abtyou">
+                    <label for="pic" class="container__form-abtyou">Upload a profile picture:</label><br/>
+                </div>
+                <input id="profile-picture" type="file" name="file" class="container__file">
+                <div class="container__form-abtyou">
+                     <label for="age" class="container__form-abtyou">Input your age (years):</label><br/>
+                </div>
+                <input type="number" id="age" class="container__age">
+                <div class="container__form-abtyou">
+                   <label for="select" class="container__form-abtyou">How did you hear about us?</label><br/>
+                </div>
+                <div class="container_select">
+                <select>
+                    <option id="select">(select one)</option> 
+                    <option value="1">freeCodeCamp News</option>
+                    <option value="2">freeCodeCamp Youtube Channel</option>
+                    <option value="3">freeCodeCamp Forum</option>
+                    <option value="4">Other</option>
+                </select>
+                </div>
+                <div class="container__form-abtyou">
+                    <label for="bio" class="container__form-abtyou">Provide a bio:</label><br/>
+                </div>
+                <textarea name="" id="textarea" cols="30" rows="3" placeholder="I like coding on the beach..." class="container__textarea"></textarea>
+            </fieldset>
+                <input type="submit" id="submit" value="Submit">
+        </form>
+    </div>
+
+</body>
+</html>

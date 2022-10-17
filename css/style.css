@@ -1,0 +1,106 @@
+body {
+    background: #1b1b32;
+    color: #f5f6f7;
+    font-family: Tahoma;
+}
+
+hr {
+    width: 25%; 
+    border: 2px solid #3b3b4f;
+}
+
+label a {
+    color: white;
+}
+
+.cabecalho__container-textos {
+    text-align: center;
+}
+
+.cabecalho__titulo {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.cabecalho__paragrafo {
+    padding-bottom: 1em;
+}
+
+.cabecalho__titulo, .cabecalho__paragrafo {
+    margin: 1em auto;
+}
+
+.cabecalho__form-person {
+    margin: 3rem auto;
+}
+
+.cabecalho__label-form {
+   width: 25%;  
+   margin: .5em auto;
+}
+
+.cabecalho__input {
+    background: #0a0a23;
+    border: 1px solid #0a0a23;
+    width: 25%;
+    color: #ffffff;
+}
+
+.cabecalho__input-caixa {
+    text-align: center;
+}
+
+         /*      Main      */
+
+.container__form {
+    width: 25%;
+    margin: 2em auto;
+}
+
+.container__personal {
+    padding: 0.5em 0;
+}
+
+.container__form-about {
+    width: 25%;
+    margin: 1em auto;
+}
+
+.container__form-abtyou {
+    padding: 1em 0;
+}
+
+.container__file {
+    background: #0a0a23;
+    width: 100%;
+    padding: 3px;
+}
+
+.container__age {
+    background: #0a0a23;
+    border: 1px solid #0a0a23;
+    width: 100%;
+    padding: 0.3em;
+    color: #ffffff;
+}
+
+/*.container__select {
+    display: inline;
+    width: 100%;
+}*/
+
+.container__textarea {
+    background-color: #0a0a23;
+    width: 100%;
+    color: #ffffff;
+}
+
+#submit {
+    padding: 0.3em 2em;
+    margin: 3em 2em;
+    width: 80%;
+    background: #3b3b4f;
+    border: 1px solid #ffffff;
+    color: white;
+    font-size: 18px;
+}
